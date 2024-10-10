@@ -1,25 +1,39 @@
-n1 = 4.5
-n2 = 6.3
-n3 = 5.4
+#Saida de dados
+
+"""nome= "Joshua"
+idade= 19
+peso= 75
+
+#forma antiga
+print("O meu nome é %s" %nome)
+print("%s tem %d de idade %.1f peso"%(nome, idade, peso))
+
+#forma mais nova
+print ("{} tem {} anos {} peso.".format(nome, idade, peso))
+
+#forma novissima
+print(f"{nome} tem {idade} peso {peso}")"""
 
 
-# print(media)
-if (media>=7):
-    situacao = 'Aprovado'
-elif (media >=3 and media <7):
-    situacao = 'Reecuperação'
-elif:
-situacao = 'Rprovado'
+#Entrada de dados
 
-media = (n1+n2+n3) /3
+hw= input("Escreva 'Alô mundo': ")
+print({hw})
 
-#lista = vetor
 
-x=[5,10,15,20,25]
+num= int (input("Escreva um número: "))
+print({num})
 
-print(x[4])
+num1= int (input("Escreva um número: "))
+num2= int (input("Escreva mais um número: "))
+print({num1+num2})
 
-#append() - inserir um novo valor no ultimo espaço do vetor
-#insert() - inserir um novo valor em qualquer espaço do vetor
-#pop() - elimina o último valor do vetor ou vc pode escolher a posição 0,1,2,3...
-#remove() - elimina o valor pelo número específico do valor
+
+n1= int (input("Primeira nota: "))
+n2= int (input("Segunda nota: "))
+n3= int (input("Terceira nota: "))
+n4= int (input("Quarta nota: "))
+print({(n1+n2+n3+n4)/4})
+
+mc= int (input("Digite a metragem que irá ser convertida: "))
+print({mc * 100})
